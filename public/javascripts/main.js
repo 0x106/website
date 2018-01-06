@@ -59,3 +59,10 @@ $('#cc').on('mouseover', function () {
     opacity: [{value: 1.0, duration: 1000}, {value: 0.5, duration: 1000}, {value: 0.0, duration: 1000}],
   });
 });
+
+
+var codeButton = document.getElementById('write');
+codeButton.addEventListener("click", function() {
+  console.log("code clicked");
+  document.getElementById("contenttext").addClass("show");
+});

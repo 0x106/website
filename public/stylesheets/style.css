@@ -7,25 +7,38 @@ body {
     font-family: 'Roboto Mono', Arial, sans-serif;
 }
 
-.page {
+.container {
+  position: fixed;
+  width: 50%;
+}
+
+.content {
+  margin: 24px;
+  /* display: grid; */
+  /* overflow: auto; */
+}
+.content h2 {
+  color: #613F75;
+}
+.content h3 {
+  color: #613F75;
+}
+
+.menu {
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
-  grid-template-columns: 0.9fr 0.1fr;
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: 0.8fr 0.2fr;
+  grid-template-rows: repeat(8, 1fr);
 
   justify-items: center;
   align-items: center;
-  /* overflow: hidden; */
   height: 100%;
 }
-
 
 .name {
   text-align: right;
 }
 
 .name h1 {
-  /* color: #324376; */
   color: #23395B;
   font-size: 2.4em;
   font-weight: 300;
@@ -43,7 +56,6 @@ body {
   font-size: 2.4em;
   align-self: center;
   justify-self: center;
-  /* margin-left: 40px; */
   opacity: 1.0;
 }
 
@@ -57,7 +69,6 @@ body {
   text-align: right;
   align-self: center;
   transform: translateX(-5%);
-  /* opacity: 0.0; */
 }
 
 .code-text {
@@ -85,6 +96,32 @@ body {
 }
 
 .show {
-  opacity: 1.0;
-  transition: all 0.5s;
+  display: grid;
+  /* opacity: 1.0; */
+  /* transition: all 0.5s; */
+}
+
+.grid-left {
+  /* display: inline-block; */
+  float: left;
+  /* height: 100%; */
+  width: 50%;
+  /* overflow: auto; */
+}
+
+.grid-right {
+  float: left;
+  /* height: 100%; */
+  width: 50%;
+}
+
+#contenttext {
+  display: none;
+  /* display: block; */
+  /* opacity: 0.0; */
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
 }
