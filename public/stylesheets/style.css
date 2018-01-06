@@ -1,0 +1,90 @@
+body {
+    height: 100%;
+    /* FBFFFE */
+    /* 9D6381 */
+    /* background: linear-gradient(90deg, #FF6663 90%, #324376 10%); */
+    background: linear-gradient(90deg, #FFFFFF 90%, #324376 10%);
+    font-family: 'Roboto Mono', Arial, sans-serif;
+}
+
+.page {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 0.9fr 0.1fr;
+  grid-template-rows: repeat(7, 1fr);
+
+  justify-items: center;
+  align-items: center;
+  /* overflow: hidden; */
+  height: 100%;
+}
+
+
+.name {
+  text-align: right;
+}
+
+.name h1 {
+  /* color: #324376; */
+  color: #23395B;
+  font-size: 2.4em;
+  font-weight: 300;
+  transform: translateX(-5%);
+}
+
+.grid-item {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+
+.element h1 {
+  color: #FF6663;
+  font-size: 2.4em;
+  align-self: center;
+  justify-self: center;
+  /* margin-left: 40px; */
+  opacity: 1.0;
+}
+
+.element a {
+  display: grid;
+  text-decoration: none;
+}
+
+.element-text p {
+  display: grid;
+  text-align: right;
+  align-self: center;
+  transform: translateX(-5%);
+  /* opacity: 0.0; */
+}
+
+.code-text {
+  opacity: 0.0;
+}
+
+.ml-text {
+  opacity: 0.0;
+}
+
+.math-text {
+  opacity: 0.0;
+}
+
+.write-text {
+  opacity: 0.0;
+}
+
+.cc-text {
+  opacity: 0.0;
+}
+
+.show-element-text {
+  display: grid;
+}
+
+.show {
+  opacity: 1.0;
+  transition: all 0.5s;
+}
