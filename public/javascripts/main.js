@@ -63,6 +63,5 @@ $('#cc').on('mouseover', function () {
 
 var codeButton = document.getElementById('write');
 codeButton.addEventListener("click", function() {
-  console.log("code clicked");
   document.getElementById("contenttext").addClass("show");
 });
