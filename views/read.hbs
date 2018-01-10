@@ -1,19 +1,30 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<title>Jordan Campbell</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
-</head>
+  <head>
+    <title>Atlas Reality</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+  </head>
 <body>
 
 
   <div class="grid-left">
 
     <div class="content">
+      <div class="readinglist" id="contenttext">
+        <ul>
+          {{#each posts}}
+              <li>
+                  <h2> {{this.header}} </h2>
+                  <h3> {{this.subheader}} </h3>
+                  <p>  {{{this.body}}} </p>
+              </li><br>
+          {{/each}}
+        </ul>
+      </div>
     </div>
 
   </div>
@@ -55,27 +66,15 @@
         <div class="grid-item element-text cc-text"><p>my girlfriend makes films</p></div>
         <div class="grid-item element" id="cc">    <a href="">    <h1>    ○   </h1></a></div>
 
-
         <div>
         </div>
 
       </div>
-
     </div>
   </div>
 
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
-  <script src="javascripts/src.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script> -->
+  <!-- <script src="javascripts/src.js"></script> -->
 
 </body>
 </html>
-
-
-
-
-<!-- <div class= "" id="contenttext"> -->
-  <!-- <h2></h2> -->
-  <!-- <h3></h3> -->
-  <!-- <p></p> -->
-<!-- </div> -->
