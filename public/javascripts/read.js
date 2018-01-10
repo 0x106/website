@@ -34,9 +34,9 @@ $('#cc').on('mouseover', function () {
   });
 });
 
-// var codeButton = document.getElementById('write');
-// codeButton.addEventListener("click", function() {
-//   document.getElementById("contenttext").addClass("show");
-// });
-
-// end src.js
+$('#home').on('mouseover', function () {
+  anime({
+    targets: 'div.home-text',
+    opacity: [{value: 1.0, duration: 1000}, {value: 0.5, duration: 1000}, {value: 0.0, duration: 1000}],
+  });
+});

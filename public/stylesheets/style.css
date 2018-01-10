@@ -93,6 +93,10 @@ body {
   opacity: 0.0;
 }
 
+.home-text {
+  opacity: 0.0;
+}
+
 .show-element-text {
   display: grid;
 }
