@@ -152,6 +152,7 @@ body {
 .readinglist p {
   font-size: 11px;
   color: #23395B;
+  line-height: 1.8em;
 }
 
 .readinglist a {
@@ -282,8 +283,12 @@ textarea:focus {
 } */
 
 
-
-
+.blogpost-a {
+  color: #23395B;
+  border: 5px solid red;
+  border-width: 0 0 2px 0;
+  border-color: #FB887C;
+}
 
 
 
