@@ -292,6 +292,24 @@ textarea:focus {
 
 
 
+.main-image-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  transform: translateY(10%);
+}
+
+.main-image-item {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
 
 
 
