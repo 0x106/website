@@ -27,7 +27,6 @@ basicTimelineNames.add(
   offset: '-=10000'
 });
 
-
 $('#code').on('mouseover', function () {
   anime({
     targets: 'div.code-text',
